@@ -3,8 +3,8 @@
 
 version: '3.8'
 services:
-  factorio-decoder:
-    container_name: factorio-decoder
+  blueprint:
+    container_name: blueprint
     volumes:
       - "./data:/app/data/"
     build:
