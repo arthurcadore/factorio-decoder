@@ -1,0 +1,10 @@
+# Main composition file for Factorio Blueprints Decompress.
+# Author: Arthur Cadore M. Barcella
+
+version: '3.8'
+services:
+  factorio-decompress:
+    container_name: factorio-decompress
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
